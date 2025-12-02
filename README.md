@@ -19,7 +19,8 @@ To run this project you need your own API-Key for OpenAI. Insert your API-Key in
 After this the App can be started with one command. 
 In this Repo there are two scripts (Linux: run.sh, Windows: run.bat ) which create a virtual enviroment, install all dependencies and load the data:  <br>
 On Linux run "bash run.sh"  <br>
-On Windows run "run.bat"
+On Windows run ".\run.bat"
+Hint: This application was developed on Linux, so on windows there can be some weird proportions or buttons not showing perfectly. 
 
 All packages that need to be installed are listed in the requirements.txt. 
 Additionally the following packages which are already included in the standard python package were used: 
