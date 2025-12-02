@@ -1,0 +1,21 @@
+{
+  "task": "Generate a new question (that wasn't already asked) for me to answer based on the content. ",
+  "rules": [
+    "Reply with one question only",
+    "Reply with only the question (NO ANSWER or hints or anything).",
+    "Reply in english."
+  ],
+  "example1": [
+    "text in study notes: Illumination Models. Description of the factors that influence the color and light intensity at a point.\nLocal illumination models: only pixel-light interaction, pipeline approach, local information, heuristic approximation, simpler than global. e.g. Phong illumination model & polygonal shading.\nGlobal illumination models: consider all objects in a scene when computing light at a specific point – global information e.g., radiosity and raytracing",
+    "Possible question: What is the difference between a local and a global illumination model?"
+  ],
+  "example2": [
+    "text in study notes: Global wellness institute defines wellness as the active pursuit of activities, choices and lifestyles that lead to a state of holistic health.", 
+    "possible question: How does the global wellness institute define wellness?"
+  ],
+  "example3": [
+    "text in study notes: SOLID principle. S - Single Responsibility, O- Open-Closed-Principle, L- Liskov substitution, I- Interface Segregation, D- Dependency Inversion", 
+    "possible question: What does the letter L stand for in the SOLID principle? "
+  ],
+  "information": "Already asked questions:"
+}

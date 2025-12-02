@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Computer Graphics - 1",
+    "study_notes": "computer_graphics.pdf",
+    "question": "Why do we do Back Face Culling?",
+    "input": "It reduces the computation for closed objects",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Computer Graphics - 2",
+    "study_notes": "computer_graphics.pdf",
+    "question": "By how much can the rendering time be reduced by using Back Face Culling?",
+    "input": "1/2",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Computer Graphics - 3",
+    "study_notes": "computer_graphics.pdf",
+    "question": "Can we use Back Face Culling as a Hidden Surface Removal Technique?",
+    "input": "Yes, as it removes the back sides of objects.",
+    "expected_pattern": "NOT CORRECT"
+  }, 
+  {
+    "name": "Mental Health - 1",
+    "study_notes": "mental_health.pdf",
+    "question": "What is the role of the hypothalamus in our stress response system? ",
+    "input": "It is regulating the stress and calms teh reactions.",
+    "expected_pattern": "NOT CORRECT"
+  },
+  {
+    "name": "Mental Health - 2",
+    "study_notes": "mental_health.pdf",
+    "question": "What are common signs in the classroom for anxiety?",
+    "input": "the only sign is reassurance-seeking",
+    "expected_pattern": "NOT CORRECT"
+  }, 
+  {
+    "name": "Mental Health - 3",
+    "study_notes": "mental_health.pdf",
+    "question": "What are the three parts of the stress response system? ",
+    "input": "Alarm - Response - Regulate",
+    "expected_pattern": "CORRECT"
+  },  
+  {
+    "name": "Pluratität der Weltanschauungen - 1",
+    "study_notes": "pluralitaet_der_weltanschauungen.pdf",
+    "question": "how many gosples are there in the new testament",
+    "input": "5",
+    "expected_pattern": "NOT CORRECT"
+  },  
+  {
+    "name": "Pluratität der Weltanschauungen - 2",
+    "study_notes": "pluralitaet_der_weltanschauungen.pdf",
+    "question": "How are the two different parts of the bible called? ",
+    "input": "old and new testament",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Pluratität der Weltanschauungen - 3",
+    "study_notes": "pluralitaet_der_weltanschauungen.pdf",
+    "question": "What is the content of the new testament?",
+    "input": "The relationship of the people of Israel to god",
+    "expected_pattern": "NOT CORRECT"
+  },
+  {
+    "name": "Program Verification - 1",
+    "study_notes": "program_verification.pdf",
+    "question": "Which of the premises need to be statisfied in an inference rule to colclude?",
+    "input": "all premises",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Program Verification - 2",
+    "study_notes": "program_verification.pdf",
+    "question": "With what can we prove the membership in a set?",
+    "input": "with a proof of contradiction",
+    "expected_pattern": "NOT CORRECT"
+  },
+  {
+    "name": "Program Verification - 3",
+    "study_notes": "program_verification.pdf",
+    "question": "Can you negatively refer to the currently defined set? ",
+    "input": "Yes, in some cases",
+    "expected_pattern": "NOT CORRECT"
+  },
+  {
+    "name": "Software Engineering - 1",
+    "study_notes": "software_engineering.pdf",
+    "question": "Can software testing proof the absence of bugs? ",
+    "input": "No, it can only reveal the presence of bugs",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Software Engineering - 2",
+    "study_notes": "software_engineering.pdf",
+    "question": "What is the difference between Verification and Validation?",
+    "input": "Verification is about if we build the product in the right way and validation is to ensure that we even build the product we want. ",
+    "expected_pattern": "CORRECT"
+  },
+  {
+    "name": "Software Engineering - 3",
+    "study_notes": "software_engineering.pdf",
+    "question": "Are tests always automated?",
+    "input": "yes they are always",
+    "expected_pattern": "NOT CORRECT"
+  }
+
+]

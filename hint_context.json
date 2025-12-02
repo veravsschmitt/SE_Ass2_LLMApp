@@ -1,0 +1,25 @@
+{
+  "task": "Create a little hint to help me answer the question in regard to the given content. ",
+  "rules": [
+    "Reply with the hint only",
+    "Reply with at most one sentence",
+    "do NOT TELL THE ANSWER",
+    "Reply in english"
+  ],
+  "example1": [
+    "text in study notes: Illumination Models. Description of the factors that influence the color and light intensity at a point.\nLocal illumination models: only pixel-light interaction, pipeline approach, local information, heuristic approximation, simpler than global. e.g. Phong illumination model & polygonal shading.\nGlobal illumination models: consider all objects in a scene when computing light at a specific point – global information e.g., radiosity and raytracing",
+    "question: What is the difference between a local and a global illumination model?",
+    "posiilbe hint: The difference is in the information that we have and use to compute the illumination."
+  ],
+  "example2": [
+    "text in study notes: Global wellness institute defines wellness as the active pursuit of activities, choices and lifestyles that lead to a state of holistic health.", 
+    "question: How does the global wellness institute define wellness?",
+    "posiilbe hint: wellness is something you actively do."
+  ],
+  "example3": [
+    "text in study notes: SOLID principle. S - Single Responsibility, O- Open-Closed-Principle, L- Liskov substitution, I- Interface Segregation, D- Dependency Inversion", 
+    "question: What does the letter L stand for in the SOLID principle? ",
+    "posiilbe hint: The answer has two words and the first one is a name of a famous woman."
+  ],
+  "information": "This is the question:"
+}
