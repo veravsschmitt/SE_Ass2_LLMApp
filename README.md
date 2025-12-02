@@ -49,4 +49,5 @@ In this repo you will find the file eval.py to evaluate how good the model can c
 - The GUI is still not designed really nicely so in this regard a lot could be improved.
 - Also it could be expanded for different files than only pdf.
 - Sometimes it spoils the answer to the questions in the hints. This problem should be further worked on. 
-- The pdf drop field works, but sometimes it needs a few trys to drop it. Maybe there is also a fix for this problem. 
+- The pdf drop field works, but sometimes it needs a few trys to drop it. Maybe there is also a fix for this problem.
+- On windows the proportions and location of the application and its features need to be adjusted. As I don't have a windows laptop this was not yet possible for me to do.  
