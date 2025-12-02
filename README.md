@@ -9,6 +9,7 @@
 **Telemetry:** Information on latency, times and tokens will be printed on the terminal while using the application. 
 
 **Architecture diagram:**
+![Architecture](./architecture_diagram.png)
 
 
 
