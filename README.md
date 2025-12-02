@@ -1,6 +1,6 @@
 ## Description of the project: STUDY BUDDY
 
-**Core feature:** This is an application that turns a given pdf file with study notes, lecture slides or something like that into an interactive Q&A session to enhance learning. It will give one question at a time and for each question you can ask for a hint and also check if your given answer is correct or not. The Implementation of this program is in python and for the GUI tkinter was used. As the LLM is used OpenAI's gpt-4o-mini. 
+**Core feature:** This is an application that turns a given pdf file with study notes, lecture slides or something like that into an interactive Q&A session to enhance learning. It will give one question at a time and for each question you can ask for a hint and also check if your given answer is correct or not. The Implementation of this program is in python and for the GUI tkinter was used. As the LLM is used OpenAI's gpt-4o-mini. ALso there are some shortcuts to be able to navigate through the running Q&A session without using the mouse: enter = check my answer; up = give me a hint, right = next question
 
 **Enhancement:** To enhance the performance of the LLM I used a few-shot prompt. 
 
@@ -17,8 +17,8 @@
 To run this project you need your own API-Key for OpenAI. Insert your API-Key in the designated marked spot at the top of the openAI_interface.py file.
 
 After this the App can be started with one command. 
-In this Repo there are two scripts (Linux/Mac: run.sh, Windows: run.bat ) which create a virtual enviroment, install all dependencies and load the data: 
-On Linux/Mac run "bash run.sh" 
+In this Repo there are two scripts (Linux: run.sh, Windows: run.bat ) which create a virtual enviroment, install all dependencies and load the data: 
+On Linux run "bash run.sh" 
 On Windows run "run.bat"
 
 All packages that need to be installed are listed in the requirements.txt. 
@@ -48,3 +48,4 @@ In this repo you will find the file eval.py to evaluate how good the model can c
 - The GUI is still not designed really nicely so in this regard a lot could be improved.
 - Also it could be expanded for different files than only pdf.
 - Sometimes it spoils the answer to the questions in the hints. This problem should be further worked on. 
+- The pdf drop field works, but sometimes it needs a few trys to drop it. Maybe there is also a fix for this problem. 
