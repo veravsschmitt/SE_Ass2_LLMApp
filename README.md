@@ -1,5 +1,7 @@
 ## Description of the project: STUDY BUDDY
 
+**DEMO:** You will find a short DEMO video of this app at the following link: https://fileshare.uibk.ac.at/f/a5ba93cc9baf41d99456/ . Hint: I only realized after recording, but if you exceed the length guard of an answer with a normal pdf loaded it will tell you that the answer is to long instead of telling you that it found an attack.
+
 **Core feature:** This is an application that turns a given pdf file with study notes, lecture slides or something like that into an interactive Q&A session to enhance learning. It will give one question at a time and for each question you can ask for a hint and also check if your given answer is correct or not. The Implementation of this program is in python and for the GUI tkinter was used. As the LLM is used OpenAI's gpt-4o-mini. ALso there are some shortcuts to be able to navigate through the running Q&A session without using the mouse: enter = check my answer; up = give me a hint, right = next question
 
 **Enhancement:** To enhance the performance of the LLM I used a few-shot prompt. 
